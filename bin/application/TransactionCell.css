@@ -1,0 +1,29 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.transactioncell_button_update {
+	-fx-background-color: EBC95E;
+	-fx-font-family: "Calibri Light";
+	
+}
+
+.transactioncell_button_delete {
+	-fx-background-color: 54D39D;
+	-fx-font-family: "Calibri Light";
+	
+}
+
+.transaction_cell_container{
+	-fx-background-color: #FFFFFF; 
+	-fx-background-radius: 10;
+    
+}
+
+
+.transaction_cell_container{
+	-fx-background-color: #FFFFFF; 
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 14px; 
+    -fx-text-fill: #555555;  
+    -fx-alignment: center; 
+}

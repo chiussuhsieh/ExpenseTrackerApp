@@ -1,0 +1,85 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.create_addExpanse_container {
+	-fx-background-color: #EEEEEE;
+	
+}
+
+.create_addExpense_container Text {
+	-fx-font-size: 1.2em;
+	-fx-fill: #888888;
+}
+
+.create_addExpense_container VBox {
+	-fx-border-width: 0 0 0 1;
+	-fx-border-color: #000000;
+	-fx-padding: 10;
+	-fx-spacing: 15;
+}
+
+.create_addExpense_container TextField {
+	-fx-pref-width: 250;
+	-fx-pref-height: 35;
+	-fx-background-color: #FFFFFF;
+	-fx-font-size: 14 px;
+	-fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+	
+	
+}
+
+.create_addExpense_container Button {
+	-fx-background-color: linear-gradient(to right, #132A13, #253F25);
+	-fx-effect: dropshadow(threw-pass-box, #AAAAAA, 3, 0, 0, 3);
+	-fx-pref-width: 250;
+	-fx-font-size: 1.5em;
+	-fx-font-family: "Calibri Light";
+	-fx-text-fill: #FFFFFF;
+}
+
+
+.create_addExpense_container Button:hover {
+	-fx-cursor: hand;
+}
+
+.error_label {
+	-fx-text-fill: #FF0000;
+}
+
+
+.transparent {
+	-fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.white-background{
+	-fx-background-color: #fff;
+}
+
+.transaction_header_container {
+    -fx-background-color: #F0F0F0; 
+    -fx-font-family: "Calibri Light";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px; 
+    -fx-text-fill: #555555;  
+    -fx-alignment: center; 
+}
+
+.transactioncell_button {
+	-fx-background-color: EBC95E;
+	-fx-font-family: "Calibri Light";
+	
+}
+
+.transactioncell_button_green {
+	-fx-background-color: 54D39D;
+	-fx-font-family: "Calibri Light";
+	
+}
+
+.transaction_cell_container{
+	-fx-background-color: #FFFFFF; 
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 14px; 
+    -fx-text-fill: #555555;  
+    -fx-alignment: center; 
+}
+
+

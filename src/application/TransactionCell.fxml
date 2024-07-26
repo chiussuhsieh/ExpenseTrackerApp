@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:controller="application.TransactionCellController" prefHeight="44.0" prefWidth="546.0" styleClass="white-background" stylesheets="@AddExpense.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="dateLabel" alignment="CENTER" prefHeight="38.0" prefWidth="86.0" styleClass="transaction_header_container" stylesheets="@AddExpense.css" text="20240724">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="categoryLabel" alignment="CENTER" prefHeight="38.0" prefWidth="117.0" styleClass="transaction_header_container" stylesheets="@AddExpense.css" text="food" />
+      <Label fx:id="descriptionLabel" alignment="CENTER" prefHeight="38.0" prefWidth="112.0" styleClass="transaction_header_container" stylesheets="@AddExpense.css" text="lunch" />
+      <Label fx:id="amountLabel" alignment="CENTER" prefHeight="38.0" prefWidth="112.0" stylesheets="@AddExpense.css" text="\$20">
+         <styleClass>
+            <String fx:value="white-background" />
+            <String fx:value="transaction_header_container" />
+         </styleClass>
+      </Label>
+      <HBox prefHeight="46.0" prefWidth="157.0" spacing="15.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" styleClass="transactioncell_button" stylesheets="@AddExpense.css">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/—Pngtree—black%20trash%20can%20icon_8178156.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" styleClass="transactioncell_button" stylesheets="@AddExpense.css">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/—Pngtree—pencil%20icon_5069217.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</HBox>
